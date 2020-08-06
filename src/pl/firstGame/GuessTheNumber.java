@@ -1,9 +1,9 @@
-package Zadanie1;
+package pl.firstGame;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class GuessNumber {
+public class GuessTheNumber {
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -22,10 +22,10 @@ public class GuessNumber {
                 System.out.println("Za mało!");
             } else if (num > randomNum) {
                 System.out.println("Za dużo!");
-            } else if (num == randomNum) {
+            } else {
                 System.out.println("Zgadłeś!");
                 isDrawn = true;
-            } else num = getInt();
+            }
         }
     }
 
