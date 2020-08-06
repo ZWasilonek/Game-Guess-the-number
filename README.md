@@ -5,7 +5,7 @@ interakcje z użytkownikiem podpowiadać czy wpisana w konsoli przez użytkownik
 do momentu gdy użytkownik zgadnie i kończy grę.
 
 ## Jak uruchomić 
-Należy uruchomić będąc w katalogu ./src polecenie w terminalu:
+Należy uruchomić będąc w katalogu ./src polecenia w terminalu:
 
 ```
  javac pl/firstGame/GuessTheNumber.java 
